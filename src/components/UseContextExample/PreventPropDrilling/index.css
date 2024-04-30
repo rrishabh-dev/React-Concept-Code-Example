@@ -1,0 +1,9 @@
+.show-salary-link {
+  cursor: pointer;
+  color: aqua;
+  width: fit-content;
+}
+
+.show-salary-link:hover {
+  color: bisque;
+}
