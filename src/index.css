@@ -13,13 +13,40 @@ code {
     monospace;
 }
 
-li {
-  cursor: pointer;
-  width: fit-content;
-}
-
 .App {
   margin: 30px auto;
   width: 90%;
   color: #eee;
+}
+
+li {
+  cursor: pointer;
+  width: fit-content;
+}
+li::selection {
+  background: #F87433;
+}
+p::selection {
+  background: #F87433;
+}
+div::selection {
+  background: #F87433;
+}
+h6::selection {
+  background: #F87433;
+}
+h5::selection {
+  background: #F87433;
+}
+h4::selection {
+  background: #F87433;
+}
+h3::selection {
+  background: #F87433;
+}
+h2::selection {
+  background: #F87433;
+}
+h1::selection {
+  background: #F87433;
 }
