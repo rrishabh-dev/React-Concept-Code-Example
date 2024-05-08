@@ -13,6 +13,7 @@ const isPrime = (n) => {
 }
 
 const PrimeCalculator = () => {
+  console.log('PrimeCalculator component render');
   const [selectedNum, setSelectedNum] = React.useState(100);
 
   const allPrimes = [];

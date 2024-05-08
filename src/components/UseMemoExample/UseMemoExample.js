@@ -11,6 +11,7 @@ const UseMemoExample = () => {
         <li onClick={() => navigate('sort')}>Sort Data</li>
         <li onClick={() => navigate('preservedReferences')}>Preserved References</li>
         <li onClick={() => navigate('skipHeavyComputation')}>Skip Heavy Computation</li>
+        <li onClick={() => navigate('customHookUsingUseMemo')}>Custom Hook Using UseMemo</li>
       </ul>
     </>
   );

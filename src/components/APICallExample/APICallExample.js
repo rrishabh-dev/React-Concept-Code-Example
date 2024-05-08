@@ -78,7 +78,7 @@ const APICallExample = () => {
                 <img src={el.thumbnail} alt={el.title} width="200" height="150" />
               </div>
             </div>
-          )
+          );
         })
         : 'Loading...'
       }
