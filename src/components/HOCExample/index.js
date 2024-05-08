@@ -1,5 +1,9 @@
 import HOCExample from "./HOCExample";
-import IncrementHOCExample from "./IncrementHOCExample/IncrementHOCExample";
 import StyleHOCExample from './StyleHOCExample/StyleHOCExample';
+import IncrementHOCExample from "./IncrementHOCExample/IncrementHOCExample";
 
-export { HOCExample, IncrementHOCExample, StyleHOCExample };
+export {
+  HOCExample,
+  StyleHOCExample,
+  IncrementHOCExample
+};

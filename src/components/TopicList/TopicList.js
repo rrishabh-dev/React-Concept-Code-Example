@@ -16,7 +16,14 @@ const TopicList = () => {
         <li onClick={() => navigate('useMemo-example')}>useMemo</li>
         <li onClick={() => navigate('useCallback-example')}>useCallback</li>
         <li onClick={() => navigate('useReducer-example')}>useReducer</li>
+      </ul>
+      <hr />
+      <h1>React Machine Code Topics:</h1>
+      <ul>
         <li onClick={() => navigate('api-call')}>API Call & filter Data</li>
+        <li onClick={() => navigate('carousal')}>Carousal</li>
+        <li onClick={() => navigate('star-rating')}>Star-Rating</li>
+        <li onClick={() => navigate('tic-tac-toe')}>Tic-Tac-Toe</li>
       </ul>
     </>
   );
