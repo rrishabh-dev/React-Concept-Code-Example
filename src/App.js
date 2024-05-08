@@ -6,17 +6,21 @@ import { DataViewerWithErrorBoundary } from './components/DataViewerComponent';
 import { NewFeatureComponentWithFeatureToggle } from './components/NewFeatureComponent';
 import { PrivateComponentComponentWithAuthorization } from './components/PrivateComponent';
 import {
-  TopicList,
+  APICallExample,
+  GoBack,
   HOCExample,
+  TicTacToe,
+  TopicList,
   UseStateExample,
   UseEffectExample,
   UseContextExample,
   UseRefExample,
   UseMemoExample,
   UseCallbackExample,
-  UseReducerExample
+  UseReducerExample,
+  StarRating,
+  Carousal
 } from './components';
-import { APICallExample } from './components/APICallExample';
 import {
   IncrementHOCExample,
   StyleHOCExample
@@ -25,7 +29,8 @@ import { CountAndTitle } from './components/UseCallbackExample';
 import {
   SortData,
   PreservedReferences,
-  SkipHeavyComputation
+  SkipHeavyComputation,
+  CustomHookWithUseMemo
 } from './components/UseMemoExample';
 import {
   ComplexStates,
@@ -66,6 +71,7 @@ const App = () => {
   return (
     <div className="App">
       <Router>
+        <GoBack />
         <Routes>
           <Route path="/" element={<TopicList />} />
 
@@ -123,13 +129,17 @@ const App = () => {
           <Route path="useMemo-example/sort" element={<SortData />} />
           <Route path="useMemo-example/preservedReferences" element={<PreservedReferences />} />
           <Route path="useMemo-example/skipHeavyComputation" element={<SkipHeavyComputation />} />
+          <Route path="useMemo-example/customHookUsingUseMemo" element={<CustomHookWithUseMemo url={'https://dummyjson.com/products'} />} />
 
           {/* UseCallback Routes */}
           <Route path="useCallback-example" element={<UseCallbackExample />} />
           <Route path="useCallback-example/count&Title" element={<CountAndTitle />} />
 
-          {/* API Call Routes */}
+          {/* React Machine Coding Topics */}
           <Route path="api-call" element={<APICallExample />} />
+          <Route path="carousal" element={<Carousal />} />
+          <Route path="star-rating" element={<StarRating />} />
+          <Route path="tic-tac-toe" element={<TicTacToe />} />
         </Routes>
       </Router>
     </div>

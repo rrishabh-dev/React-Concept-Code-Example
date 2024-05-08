@@ -1,21 +1,31 @@
-import { TopicList } from "./TopicList";
+import { APICallExample } from './APICallExample';
+import { Carousal } from './Carousal';
+import { GoBack } from './GoBack';
 import { HOCExample } from './HOCExample';
-import { UseStateExample } from './UseStateExample';
-import { UseEffectExample } from './UseEffectExample';
-import { UseContextExample } from './UseContextExample';
-import { UseRefExample } from './UseRefExample';
-import { UseMemoExample } from './UseMemoExample';
+import { StarRating } from './StarRating';
+import { TicTacToe } from './TicTacToe';
+import { TopicList } from "./TopicList";
 import { UseCallbackExample } from './UseCallbackExample';
+import { UseContextExample } from './UseContextExample';
+import { UseEffectExample } from './UseEffectExample';
+import { UseMemoExample } from './UseMemoExample';
 import { UseReducerExample } from './UseReducerExample';
+import { UseRefExample } from './UseRefExample';
+import { UseStateExample } from './UseStateExample';
 
 export {
-  TopicList,
+  APICallExample,
+  Carousal,
+  GoBack,
   HOCExample,
-  UseStateExample,
-  UseEffectExample,
-  UseContextExample,
-  UseRefExample,
-  UseMemoExample,
+  StarRating,
+  TicTacToe,
+  TopicList,
   UseCallbackExample,
-  UseReducerExample
+  UseContextExample,
+  UseEffectExample,
+  UseMemoExample,
+  UseReducerExample,
+  UseRefExample,
+  UseStateExample
 };
